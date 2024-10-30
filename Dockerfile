@@ -9,7 +9,10 @@ ARG TARGETPLATFORM
 ARG GRAAL_VERSION=21.0.2
 ARG JAVA_VERSION=21
 
-MAINTAINER Liam Pilson, <contact@karmalover.ca>
+LABEL       author="Liam Pilson" maintainer="contact@karmalover.ca"
+
+LABEL       org.opencontainers.image.source="https://github.com/karmalover-ca/java_21"
+LABEL       org.opencontainers.image.licenses=MIT
 
 ENV DEBIAN_FRONTEND=noninteractive
 
